@@ -21,12 +21,12 @@ sbt test
 
 Want to generate .jar?
 ```console
-sbt package
+sbt assembly
 ```
 
 Run the jar file using the code below: 
 ```console
-java -jar 
+java -jar tic-tac-toe-game.jar 
 ```
 
 
