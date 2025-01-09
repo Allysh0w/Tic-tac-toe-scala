@@ -36,7 +36,7 @@ There is not a docker version for this project*
 # About the project
 What is Tic-tac-toe game?
 Tic-Tac-Toe is a simple two-player game played on a 3x3 grid. 
-The goal is to be the first player to align three of your symbols (either "X" or "O") in a horizontal, vertical, or diagonal row.
+The goal is to be the first player to align three of your symbols (either "X" or "O") in a horizontal, vertical, or diagonal line.
 
 ## How This project is organized? 
 * Setup: The game starts with an empty 3x3 grid and will ask for the name of player 1 and player 2
