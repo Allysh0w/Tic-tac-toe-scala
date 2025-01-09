@@ -15,7 +15,20 @@ To run the tests execute the code below
 ```console
 sbt test
 ```
+
 ![image](https://github.com/user-attachments/assets/aad132a7-2c79-4cfa-8c3e-1f5f2bfb7716)
+
+
+Want to generate .jar?
+```console
+sbt package
+```
+
+Run the jar file using the code below: 
+```console
+java -jar 
+```
+
 
 -------------------------------------------
 There is not a docker version for this project*
