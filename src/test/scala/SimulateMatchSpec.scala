@@ -6,7 +6,7 @@ import Fixtures._
 class SimulateMatchSpec extends AnyWordSpecLike {
 
   "Simulate a game" must {
-    "And player 1 must win the match" in {
+    "Match and player 1 must win" in {
 
       val boardExpected: List[List[String]] = List(
         List("X", " ", "O"),
@@ -38,7 +38,7 @@ class SimulateMatchSpec extends AnyWordSpecLike {
     }
 
 
-    "And player 2 must win the match" in {
+    "Match and player 2 must win" in {
 
       val boardExpected: List[List[String]] = List(
         List("X", "X", "O"),
@@ -71,7 +71,7 @@ class SimulateMatchSpec extends AnyWordSpecLike {
 
     }
 
-    "The match must be draw" in {
+    "Work and the match must be draw" in {
 
       val boardExpected: List[List[String]] = List(
         List("X", "O", "X"),

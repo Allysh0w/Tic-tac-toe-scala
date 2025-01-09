@@ -2,7 +2,7 @@ import BoardControl._
 
 object Game extends App {
 
-  def handlePlayerChoice(player: Player): (Int, Int) = {
+  private def handlePlayerChoice(player: Player): (Int, Int) = {
     println(s"${player.nickname}, please make your choice! Remember your SYMBOL = ${player.symbol}")
     println("You need to choose a row and a column (row, col). For example: 1,2")
     val input = io.StdIn.readLine()
@@ -17,7 +17,7 @@ object Game extends App {
     }
   }
 
-  def gameLoop(board: List[List[String]],
+  private def gameLoop(board: List[List[String]],
                currentPlayer: Player, // player1 always will go first at the beginning of the game
                player1: Player,
                player2: Player,
