@@ -23,7 +23,7 @@ object Game extends App {
                player2: Player,
                log: String => Unit): Unit = {
 
-    println(drawBoard(board))
+    log(drawBoard(board))
     printDivisor
     val (row, col) = handlePlayerChoice(currentPlayer)
 
