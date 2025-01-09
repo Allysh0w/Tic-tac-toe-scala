@@ -53,7 +53,7 @@ object Game extends App {
 
       case Left(errorMessage) =>
         printDivisor
-        println(errorMessage)
+        log(errorMessage)
         gameLoop(
           board,
           currentPlayer,
